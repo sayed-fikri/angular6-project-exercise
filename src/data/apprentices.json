@@ -1,0 +1,20 @@
+[
+  {
+    "id": 100,
+    "code": "CHRT-001-0001",
+    "name": "Hafiz Hussin",
+    "email": "hafiz.hussin@terang.asia"
+  },
+  {
+    "id": 200,
+    "code": "CHRT-001-0002",
+    "name": "Hafidz Zakaria",
+    "email": "hafidz.zakaria@terang.asia"
+  },
+  {
+    "id": 300,
+    "code": "CHRT-001-0003",
+    "name": "Zamier Z",
+    "email": "zamier.z@terang.asia"
+  }
+]

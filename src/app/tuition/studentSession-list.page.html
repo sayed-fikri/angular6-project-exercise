@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Session Page</title>
+</head>
+<body>
+This is Student Session Page
+
+****** ^______^ *****
+
+{{dataSource | async | json}}
+
+<mat-table #table [dataSource]="dataSource">
+  <!-- id column -->
+  <ng-container matColumnDef="sessionCode">
+    <mat-header-cell *matHeaderCellDef> sessionCode </mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.sessionCode}}</mat-cell>
+  </ng-container>
+  <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+</mat-table>
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>This is Instructor Page</title>
+</head>
+<body>
+
+
+
+<mat-toolbar class="table-header">
+  <h1 class="mat-headline center-align">Instructors</h1>
+</mat-toolbar>
+
+
+<mat-table #table [dataSource]="datasource">
+
+  <!-- id column -->
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef> ID</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.id}}</mat-cell>
+  </ng-container>
+
+  <!-- name column -->
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef> Name</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.name}}</mat-cell>
+  </ng-container>
+
+  <!-- NRIC column -->
+  <ng-container matColumnDef="nric">
+    <mat-header-cell *matHeaderCellDef> NRIC</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.nric}}</mat-cell>
+  </ng-container>
+
+  <!-- Gender column -->
+  <ng-container matColumnDef="gender">
+    <mat-header-cell *matHeaderCellDef> Gender</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.gender}}</mat-cell>
+  </ng-container>
+
+  <!-- email column -->
+  <ng-container matColumnDef="email">
+    <mat-header-cell *matHeaderCellDef> E-mail</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.email}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+
+</mat-table>
+
+
+
+
+
+
+
+</body>
+</html>

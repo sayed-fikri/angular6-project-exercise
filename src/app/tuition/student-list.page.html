@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>This is Student Page</title>
+</head>
+<body>
+This is Student Page
+
+<mat-table #table [dataSource]="datasource">
+
+  <!-- id column -->
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef> Name</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.name}}</mat-cell>
+  </ng-container>
+
+  <!-- name column -->
+  <ng-container matColumnDef="gender">
+    <mat-header-cell *matHeaderCellDef> Gender</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.gender}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="idNumber">
+    <mat-header-cell *matHeaderCellDef> ID Number</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.idNumber}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+
+</mat-table>
+
+
+</body>
+</html>

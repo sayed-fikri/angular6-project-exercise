@@ -1,0 +1,50 @@
+[
+  {
+    "name": "History",
+    "code": "X001",
+    "rate": 400,
+    "hours": 40,
+    "type": "Social Science",
+    "level": "SPM"
+  },
+  {
+    "name": "Science",
+    "code": "X002",
+    "rate": 400,
+    "hours": 32,
+    "type": "Science",
+    "level": "SPM"
+  },
+  {
+    "name": "Art",
+    "code": "X003",
+    "rate": 500,
+    "hours": 40,
+    "type": "Social Science",
+    "level": "SPM"
+  },
+  {
+    "name": "Mathematics",
+    "code": "X004",
+    "rate": 400,
+    "hours": 32,
+    "type": "Science",
+    "level": "SPM"
+  },
+  {
+    "name": "Physics",
+    "code": "X005",
+    "rate": 400,
+    "hours": 40,
+    "type": "Science",
+    "level": "SPM"
+  },
+  {
+    "name": "Sociology",
+    "code": "X006",
+    "rate": 300,
+    "hours": 32,
+    "type": "Social Science",
+    "level": "SPM"
+  }
+]

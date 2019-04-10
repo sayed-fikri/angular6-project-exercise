@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Session Page</title>
+  <meta charset="UTF-8">
+  <title>Subject List Page</title>
+</head>
+<body>
+
+
+
+<mat-toolbar class="table-header">
+  <h1 class="mat-headline center-align">Subjects</h1>
+</mat-toolbar>
+
+
+<mat-table #table [dataSource]="datasource">
+
+  <!-- name column -->
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef> Name</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.name}}</mat-cell>
+  </ng-container>
+
+****** ^______^ *****
+
+
+  <!-- code column -->
+  <ng-container matColumnDef="code">
+    <mat-header-cell *matHeaderCellDef> Code</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.code}}</mat-cell>
+  </ng-container>
+
+  <!-- rate column -->
+  <ng-container matColumnDef="rate">
+    <mat-header-cell *matHeaderCellDef> Rate</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.rate}}</mat-cell>
+  </ng-container>
+
+  <!-- hour column -->
+  <ng-container matColumnDef="hours">
+    <mat-header-cell *matHeaderCellDef> Hour</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.hours}}</mat-cell>
+  </ng-container>
+
+  <!-- type column -->
+  <ng-container matColumnDef="type">
+    <mat-header-cell *matHeaderCellDef> Type</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.type}}</mat-cell>
+  </ng-container>
+
+  <!-- level column -->
+  <ng-container matColumnDef="level">
+    <mat-header-cell *matHeaderCellDef> Level</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.level}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+
+</mat-table>
+
+
+
+
+
+
+
+</body>
+</html>

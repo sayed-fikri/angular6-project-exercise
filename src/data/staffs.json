@@ -1,0 +1,61 @@
+[
+  {
+
+    "name": "Micheal Mikail",
+    "gender": "MALE",
+    "id": "1001",
+    "nric": "123456237777",
+    "role": "Accountant",
+    "phone": "+60123456789",
+    "email": "mic.mikail@tuition.power"
+
+  },
+
+  {
+
+    "name": "Bae Suzy",
+    "gender": "FEMALE",
+    "id": "1002",
+    "nric": "123456225888",
+    "role": "Manager",
+    "phone": "+60123456987",
+    "email": "bae.suzy@tuition.power"
+
+  },
+
+  {
+    "name": "Json Thecode",
+    "gender": "MALE",
+    "id": "2001",
+    "nric": "123456123452",
+    "role": "Technical Manager",
+    "phone": "+60123444549",
+    "email": "json.thecode@tuition.power"
+
+  },
+
+  {
+
+    "name": "Mikail Micheal ",
+    "gender": "MALE",
+    "id": "3001",
+    "nric": "123456340987",
+    "role": "General Worker",
+    "phone": "+60123545589",
+    "email": "mikail.mic@tuition.power"
+
+  },
+
+  {
+
+    "name": "Alisha Adnan",
+    "gender": "FEMALE",
+    "id": "4001",
+    "nric": "123679996666",
+    "role": "General Worker",
+    "phone": "+60123456789",
+    "email": "alisha.adnan@tuition.power"
+
+  }
+
+]

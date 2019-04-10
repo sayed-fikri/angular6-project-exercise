@@ -1,0 +1,20 @@
+[
+  {
+    "id": 100,
+    "code": "CHRT-0001",
+    "description": "Cohort 001",
+    "status": "DEPLOYED"
+  },
+  {
+    "id": 200,
+    "code": "CHRT-0002",
+    "description": "Cohort 002",
+    "status": "DEPLOYED"
+  },
+  {
+    "id": 300,
+    "code": "CHRT-0003",
+    "description": "Cohort 003",
+    "status": "STARTED"
+  }
+]

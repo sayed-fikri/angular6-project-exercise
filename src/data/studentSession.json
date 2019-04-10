@@ -1,0 +1,19 @@
+{
+  "instructor": {
+    "name": "Instructor1",
+    "gender": "MALE",
+    "nric": 1234,
+    "id": "istr1",
+    "email": "instruct"
+  },
+  "subject": {
+    "name": "History",
+    "code": "X001",
+    "rate": 400,
+    "hours": 40,
+    "type": "Social Science",
+    "level": "SPM"
+  },
+  "sessionCode": "session1",
+  "time": "2018-08-08:23:00"
+}
