@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {Makeup} from './makeup.model';
 import {Observable} from 'rxjs';
 import {MakeupService} from '../../services/makeup.service';

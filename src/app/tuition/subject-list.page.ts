@@ -14,7 +14,7 @@ export class SubjectListPage implements OnInit {
   public columns = ['name', 'code', 'rate', 'hours','type','level'];
 
   constructor(private router: Router, private tuitionService: TuitionService) {
-    console.log('Inside instructor List');
+    console.log('Subject List');
    // console.log(JSON.stringify(Subject));
 
   }
