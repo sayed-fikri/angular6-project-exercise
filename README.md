@@ -1,7 +1,7 @@
-# terang-cohort03-angular-material
-Angular Material 
+Angular Material Exercise
 
-git clone <git repo>
-npm install or npm i
-npm install save rxjs@6.2.1
-ng serve -o
+Step to run
+
+1.git clone <git repo>
+2.npm install or npm i
+3.ng serve -o
